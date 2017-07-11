@@ -1,6 +1,6 @@
 var SideScroller = SideScroller || {};
 
-SideScroller.Preload = function() {};
+SideScroller.Preload = function(){};
 SideScroller.Preload.prototype = {
   preload: function() {
     this.preloadBar.anchor.setTo(0.5);

@@ -12,7 +12,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 139, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 139, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 67, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 96, 96, 96, 96, 96, 96, 86, 0, 0, 108, 96, 96, 96, 96, 96, 96, 96, 96, 96, 86, 0, 0, 108, 96, 96, 96, 96, 96, 96, 96, 96, 86, 0, 0, 108, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 89, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 96, 96, 96, 96, 96, 96, 96, 96, 0, 0, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 0, 0, 0, 96, 96, 96, 96, 96, 96, 96, 0, 0, 0, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96, 96],
          "height":6,
          "name":"blockedLayer",
          "opacity":1,
@@ -23,387 +23,279 @@
          "y":0
         }, 
         {
-         "draworder":"topdown",
-         "name":"objectLayer",
+         "height":6,
+         "name":"objectsLayer",
          "objects":[
                 {
                  "gid":143,
-                 "height":70,
-                 "id":1,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":420,
-                 "y":209
+                 "width":0,
+                 "x":526,
+                 "y":219
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":2,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":558,
+                 "width":0,
+                 "x":647,
                  "y":140
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":3,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":629,
-                 "y":140
+                 "width":0,
+                 "x":792,
+                 "y":174
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":4,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":768,
-                 "y":210
+                 "width":0,
+                 "x":910,
+                 "y":243
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":5,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":1189,
-                 "y":279
+                 "width":0,
+                 "x":1435,
+                 "y":198
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":6,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":1331,
-                 "y":211
+                 "width":0,
+                 "x":1514,
+                 "y":137
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":7,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":1472,
-                 "y":140
+                 "width":0,
+                 "x":1710,
+                 "y":243
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":8,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":1610,
-                 "y":209
+                 "width":0,
+                 "x":1644,
+                 "y":162
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":9,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":1750,
+                 "width":0,
+                 "x":1362,
+                 "y":286
+                }, 
+                {
+                 "gid":143,
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+                     "sprite":"goldCoin",
+                     "type":"coin"
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2489,
+                 "y":228
+                }, 
+                {
+                 "gid":143,
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+                     "sprite":"goldCoin",
+                     "type":"coin"
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2610,
+                 "y":137
+                }, 
+                {
+                 "gid":143,
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+                     "sprite":"goldCoin",
+                     "type":"coin"
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2789,
+                 "y":131
+                }, 
+                {
+                 "gid":143,
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+                     "sprite":"goldCoin",
+                     "type":"coin"
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":2947,
+                 "y":228
+                }, 
+                {
+                 "gid":143,
+                 "height":0,
+                 "name":"",
+                 "properties":
+                    {
+                     "sprite":"goldCoin",
+                     "type":"coin"
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":3107,
                  "y":280
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":12,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":2169,
-                 "y":210
+                 "width":0,
+                 "x":2032,
+                 "y":328
                 }, 
                 {
                  "gid":143,
-                 "height":70,
-                 "id":13,
+                 "height":0,
                  "name":"",
                  "properties":
                     {
-                     "sprite":"goldCoin"
+                     "sprite":"goldCoin",
+                     "type":"coin"
                     },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
+                 "type":"",
                  "visible":true,
-                 "width":70,
-                 "x":2311,
-                 "y":140
-                }, 
-                {
-                 "gid":143,
-                 "height":70,
-                 "id":14,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"goldCoin"
-                    },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":70,
-                 "x":2378,
-                 "y":140
-                }, 
-                {
-                 "gid":143,
-                 "height":70,
-                 "id":15,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"goldCoin"
-                    },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":70,
-                 "x":2519,
-                 "y":210
-                }, 
-                {
-                 "gid":143,
-                 "height":70,
-                 "id":16,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"goldCoin"
-                    },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":70,
-                 "x":2663,
-                 "y":140
-                }, 
-                {
-                 "gid":143,
-                 "height":70,
-                 "id":17,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"goldCoin"
-                    },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":70,
-                 "x":3152,
-                 "y":350
-                }, 
-                {
-                 "gid":143,
-                 "height":70,
-                 "id":18,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"goldCoin"
-                    },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":70,
-                 "x":1961,
-                 "y":352
-                }, 
-                {
-                 "gid":143,
-                 "height":70,
-                 "id":19,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"goldCoin"
-                    },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":70,
-                 "x":2031,
-                 "y":350
-                }, 
-                {
-                 "gid":143,
-                 "height":70,
-                 "id":21,
-                 "name":"",
-                 "properties":
-                    {
-                     "sprite":"goldCoin"
-                    },
-                 "propertytypes":
-                    {
-                     "sprite":"string"
-                    },
-                 "rotation":0,
-                 "type":"coin",
-                 "visible":true,
-                 "width":70,
-                 "x":2870,
-                 "y":210
+                 "width":0,
+                 "x":344,
+                 "y":283
                 }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
+         "width":50,
          "x":0,
          "y":0
         }],
- "nextobjectid":24,
  "orientation":"orthogonal",
- "renderorder":"right-down",
- "tiledversion":"1.0.2",
+ "properties":
+    {
+
+    },
  "tileheight":70,
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/Sidescroller Tilesheet.tsx"
+         "image":"..\/images\/tiles_spritesheet.png",
+         "imageheight":934,
+         "imagewidth":790,
+         "margin":0,
+         "name":"tiles_spritesheet",
+         "properties":
+            {
+
+            },
+         "spacing":2,
+         "tileheight":70,
+         "tilewidth":70
         }],
  "tilewidth":70,
- "type":"map",
  "version":1,
  "width":50
 }

@@ -1,6 +1,6 @@
 var SideScroller = SideScroller || {};
 
-SideScroller.Game = function () {};
+SideScroller.Game = function (){};
 SideScroller.Game.prototype = {
   preload: function() {
     this.game.time.advancedTiming = true;
@@ -8,6 +8,7 @@ SideScroller.Game.prototype = {
   create: function() {
     this.map = this.game.add.tilemap('level1');
     this.map.addTilesetImage('tiles_spritesheet', 'gameTiles');
+    
     this.backgroundLayer = this.map.createLayer('backgroundLayer');
     this.blockedLayer = this.map.createLayer('blockedLayer');
 
